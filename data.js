@@ -56,7 +56,7 @@ async function fetchData() {
   
   const ambulance = {
     // obj: await fetchObj("./obj/ambulance.obj"),
-    obj: await fetchObj("./police.obj"),
+    obj: await fetchObj("./obj/police.obj"),
     img: await fetchImage("./img/colormap.png"),
     mv: glMatrix.mat4.scale(
       glMatrix.mat4.create(),
