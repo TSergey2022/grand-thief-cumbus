@@ -56,8 +56,8 @@ async function fetchData() {
   
   const ambulance = {
     // obj: await fetchObj("./obj/ambulance.obj"),
-    obj: await fetchObj("./kenney_car-kit/Models/OBJ format/police.obj"),
-    img: await fetchImage("./kenney_car-kit/Models/OBJ format/Textures/colormap.png"),
+    obj: await fetchObj("./police.obj"),
+    img: await fetchImage("./img/colormap.png"),
     mv: glMatrix.mat4.scale(
       glMatrix.mat4.create(),
       glMatrix.mat4.fromTranslation(glMatrix.mat4.create(), [0, 0, 0]),
@@ -236,8 +236,8 @@ async function fetchData() {
   };
   
   const sedan = {
-    obj: await fetchObj("./sedan.obj"),
-    img: await fetchImage("./colormap.png"),
+    obj: await fetchObj("./obj/sedan.obj"),
+    img: await fetchImage("./img/colormap.png"),
     mv: glMatrix.mat4.scale(
       glMatrix.mat4.create(),
       glMatrix.mat4.fromTranslation(glMatrix.mat4.create(), [-0.25, 0, 0]),
